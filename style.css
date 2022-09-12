@@ -31,3 +31,14 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
+header .logo
+{
+  position: relative;
+  color: yellow;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;/*все с большой буквы*/
+  font-weight: 800;
+  letter-spacing: 1px;  
+}

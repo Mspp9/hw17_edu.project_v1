@@ -35,7 +35,7 @@ header
 header .logo
 {
   position: relative;
-  color: yellow;
+  color: #00FF00;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;/*все с большой буквы*/
@@ -70,4 +70,15 @@ background: #DC143C; /*выделяет текст при наведении*/
 {
   max-width: 650px;
   margin: 60px 100px;
+}
+
+.content .info h2
+{
+color: #FFD700;
+font-size: 55px;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2px;
+line-height: 60px;
+margin-bottom: 30px;
 }

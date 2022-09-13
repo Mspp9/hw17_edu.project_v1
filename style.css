@@ -142,3 +142,26 @@ margin-bottom: 30px;
     {
       transform: scale(1.5);
     }
+
+    label
+    {
+      display: none;
+    }
+
+    #check
+    {
+      z-index: 3;
+    }
+
+    /*Responsive styles*/
+
+    @media (max-width:960px)
+    {
+    header .navigation
+    display: none;
+    }
+
+    label
+    {
+
+    }

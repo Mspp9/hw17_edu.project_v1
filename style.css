@@ -155,7 +155,7 @@ margin-bottom: 30px;
 
     /*Responsive styles*/
 
-    @media (max-width:960px)
+    @media (max-width:960px){
     {
     header .navigation
     display: none;
@@ -163,5 +163,15 @@ margin-bottom: 30px;
 
     label
     {
-
+      display: block;
+      font-size: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+      transition-property: color;
     }
+
+    label:hover
+    {
+      color:#00FF00;
+    }
+  }

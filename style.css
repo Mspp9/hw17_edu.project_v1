@@ -82,3 +82,10 @@ letter-spacing: 2px;
 line-height: 60px;
 margin-bottom: 30px;
 }
+
+.content .info h2 span
+{
+  color: #00FF00;
+  font-size: 50px;
+  font-weight: 600;
+}

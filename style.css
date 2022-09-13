@@ -97,3 +97,16 @@ margin-bottom: 30px;
   font-weight: 500;
   margin-bottom: 40px;
 }
+
+.content .info-btn
+{
+  color: yellow;
+  background: #DC143C;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}

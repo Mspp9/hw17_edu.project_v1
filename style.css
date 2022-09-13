@@ -89,3 +89,11 @@ margin-bottom: 30px;
   font-size: 50px;
   font-weight: 600;
 }
+
+.content .info p
+{
+  color: #7CFC00;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}

@@ -174,4 +174,10 @@ margin-bottom: 30px;
     {
       color:#00FF00;
     }
+  
+
+  label .close-btn
+  {
+    display: none;
   }
+}

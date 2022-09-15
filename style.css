@@ -184,7 +184,7 @@ margin-bottom: 30px;
   {
     z-index: 2;
     position: fixed;
-    background: #FF4500; /*цвет фона при нажатии на меню*/
+    background: #FFA07A; /*цвет фона при нажатии на меню*/
     top: 0;
     left: 0;
     bottom: 0;
@@ -208,10 +208,33 @@ margin-bottom: 30px;
           display: none;
         }
 
-    #check:checked~header label .close-btn
+    #check:checked ~ header label .close-btn
     {
       z-index: 2;
       display: block;
       position: fixed;
     }
+    
+    label .menu-btn
+    {
+      position: absolute;
+    }
+
+    header .logo
+    {
+      position: absolute;
+      bottom: -6px;
+    }
+
+    .content .info h2
+    {
+      font-size: 45px;
+      line-height: 50px;
+    }
+
+        .content .info h2 span
+        {
+          font-size: 40px;
+          font-weight: 600;
+        }
 }
